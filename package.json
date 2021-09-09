@@ -1,0 +1,17 @@
+{
+  "name": "info",
+  "version": "1.0.0",
+  "description": "A module for ClubPanel that allows you to create a club information page.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClubPanel/Info.git"
+  },
+  "author": "Jonah Uellenberg",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ClubPanel/Info/issues"
+  },
+  "homepage": "https://github.com/ClubPanel/Info#readme",
+  "private": false,
+  "devDependencies": {}
+}
