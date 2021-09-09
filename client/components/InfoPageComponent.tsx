@@ -20,7 +20,7 @@ const InfoPageComponent = ({config}: RenderProps) => {
     <>
       <Heading textAlign="center" as="h1" size="2xl" pt="10px">{configs.title}</Heading>
       <chakra.div m="auto" mb="25px" border="1px solid white" width="70%"/>
-      <Text textAlign="center" as="p" size="md" pb="100px">{configs.intro_text}</Text>
+      <Text width="70%" m="auto" textAlign="center" as="p" size="md" pb="100px">{configs.intro_text}</Text>
 
       <Accordion width="90%" m="auto" defaultIndex={indexes} allowMultiple allowToggle>
         {configs.sections.map((section, idx) => {
